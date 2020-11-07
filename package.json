@@ -1,0 +1,17 @@
+{
+  "name": "mebot",
+  "version": "1.0.0",
+  "description": "my bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "soumya talwar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0"
+  }
+}
