@@ -79,7 +79,6 @@ function calculate() {
       predictions.push(prediction);
     }
   }
-  // console.log(predictions);
 }
 
 function euclidean(user1, user2) {
@@ -131,7 +130,7 @@ async function crawl() {
     });
 }
 
-var stream = bot.stream("statuses/filter", { track: "@taegificbot recommend" });
+var stream = bot.stream("statuses/filter", { track: "" });
 
 stream.on("tweet", function (data) {
   let name = data.user.screen_name;
