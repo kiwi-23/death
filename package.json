@@ -1,17 +1,15 @@
 {
-  "name": "deadbot",
+  "name": "soumya_bot",
   "version": "1.0.0",
   "description": "my bot",
   "main": "bot.js",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "soumya talwar",
-  "license": "ISC",
-  "dependencies": {
-    "jquery": "^3.5.1",
-    "jsdom": "^16.4.0",
-    "twit": "^2.2.11"
-  }
+  "license": "ISC"
 }
