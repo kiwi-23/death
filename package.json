@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "my bot",
   "main": "bot.js",
-  "dependencies": {
-    "axios": "^0.21.1"
-  },
-  "devDependencies": {},
   "scripts": {
+    "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "soumya talwar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "firebase": "^8.2.9",
+    "puppeteer": "^7.1.0",
+    "serve": "^11.3.2",
+    "twit": "^2.2.11"
+  }
 }
